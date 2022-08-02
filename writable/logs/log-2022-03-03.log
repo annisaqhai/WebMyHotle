@@ -1,0 +1,48 @@
+CRITICAL - 2022-03-03 20:50:24 --> Undefined variable: kamar
+#0 C:\xampp\htdocs\WEB\app\Views\user\chekin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/chekin', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\ChekinController.php(16): view('user/chekin', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\ChekinController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChekinController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 20:50:45 --> Undefined variable: pembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\user\chekin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/chekin', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\ChekinController.php(16): view('user/chekin', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\ChekinController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChekinController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 20:51:19 --> Undefined variable: pembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\user\chekin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/chekin', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\ChekinController.php(16): view('user/chekin', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\ChekinController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChekinController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-03 22:10:10 --> Undefined variable: pembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\user\chekin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/chekin', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\ChekinController.php(16): view('user/chekin', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\ChekinController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChekinController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

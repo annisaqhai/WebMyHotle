@@ -1,0 +1,127 @@
+CRITICAL - 2022-02-15 01:14:31 --> Invalid file: register.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\userController.php(15): view('register', Array)
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 03:49:59 --> Invalid file: register.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\userController.php(50): view('register', Array)
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->store()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 04:03:15 --> Call to a member function listErrors() on null
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\userController.php(15): view('auth/register', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-02-15 04:13:16 --> Unknown column 'user_email' in 'where clause'
+CRITICAL - 2022-02-15 04:13:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\WEB\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('dafad@sfsa.com', 'user_email', Array, NULL)
+#1 C:\xampp\htdocs\WEB\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'dafad@sfsa.com', Array, Array)
+#2 C:\xampp\htdocs\WEB\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\WEB\app\Controllers\userController.php(35): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->store()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-15 04:15:11 --> Call to undefined method App\Models\UserModel::store
+#0 C:\xampp\htdocs\WEB\app\Controllers\userController.php(46): CodeIgniter\Model->__call('store', Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->store()
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-15 04:20:26 --> Undefined variable: pass
+#0 C:\xampp\htdocs\WEB\app\Controllers\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-15 19:28:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-15 19:28:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\WEB\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\WEB\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\WEB\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\WEB\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('admin@gmail.com', 'email', Array, NULL)
+#4 C:\xampp\htdocs\WEB\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'admin@gmail.com', Array, Array)
+#5 C:\xampp\htdocs\WEB\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\WEB\app\Controllers\userController.php(35): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->store()
+#8 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#9 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-15 21:47:33 --> Invalid file: user/halamanutama.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/halamanuta...')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/halamanuta...', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\Home.php(10): view('user/halamanuta...')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 21:47:47 --> Invalid file: user/halamanutama.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/halamanuta...')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/halamanuta...', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\Home.php(10): view('user/halamanuta...')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 21:48:03 --> Invalid file: user/halamanutama.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/halamanuta...')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/halamanuta...', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\Home.php(10): view('user/halamanuta...')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 21:48:07 --> Invalid file: user/halamanutama.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/halamanuta...')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/halamanuta...', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\Home.php(10): view('user/halamanuta...')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 21:53:15 --> Invalid file: user/halamanutama.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/halamanuta...')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/halamanuta...', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\Home.php(10): view('user/halamanuta...')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

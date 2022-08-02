@@ -1,0 +1,1 @@
+ERROR - 2022-06-06 02:32:07 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbhotel`.`konfirmasi`, CONSTRAINT `konfirmasi_ibfk_2` FOREIGN KEY (`no_transaksi`) REFERENCES `transaksi` (`no_transaksi`))

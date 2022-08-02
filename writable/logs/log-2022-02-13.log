@@ -1,0 +1,67 @@
+CRITICAL - 2022-02-13 08:32:33 --> Invalid file: auth/template/index.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/template/i...')
+#1 C:\xampp\htdocs\WEB\system\View\View.php(226): CodeIgniter\View\View->render('auth/template/i...', Array, true)
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\Home.php(9): view('auth/login')
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-13 20:50:55 --> Class 'Config\LoginFilter' not found
+#0 C:\xampp\htdocs\WEB\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-13 21:39:44 --> Could not check compatibility between App\Filters\Noauth::before(CodeIgniter\system\HTTP\RequestInterface $request, $arguments = NULL) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL), because class CodeIgniter\system\HTTP\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 22:19:55 --> Could not check compatibility between App\Filters\Noauth::before(CodeIgniter\system\HTTP\RequestInterface $request, $arguments = NULL) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL), because class CodeIgniter\system\HTTP\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 22:20:41 --> Could not check compatibility between App\Filters\Noauth::before(CodeIgniter\system\HTTP\RequestInterface $request, $arguments = NULL) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL), because class CodeIgniter\system\HTTP\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 22:22:05 --> Could not check compatibility between App\Filters\Noauth::before(CodeIgniter\system\HTTP\RequestInterface $request, $arguments = NULL) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL), because class CodeIgniter\system\HTTP\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 22:23:55 --> Could not check compatibility between App\Filters\Noauth::before(CodeIgniter\system\HTTP\RequestInterface $request, $arguments = NULL) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL), because class CodeIgniter\system\HTTP\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 22:26:50 --> Invalid file: login.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\UserController.php(31): view('login', Array)
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-13 22:44:08 --> Invalid file: login.php
+#0 C:\xampp\htdocs\WEB\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\UserController.php(31): view('login', Array)
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-13 23:10:19 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\WEB\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-13 23:10:44 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\WEB\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-13 23:34:18 --> Cannot redeclare App\Controllers\BaseController::$helpers
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

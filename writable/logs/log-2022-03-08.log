@@ -1,0 +1,24 @@
+CRITICAL - 2022-03-08 05:29:28 --> syntax error, unexpected '}', expecting ')'
+#0 C:\xampp\htdocs\WEB\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\WEB\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-08 05:29:29 --> syntax error, unexpected '}', expecting ')'
+#0 C:\xampp\htdocs\WEB\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\WEB\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-08 06:32:28 --> Cannot add or update a child row: a foreign key constraint fails (`dbhotel`.`transaksi`, CONSTRAINT `transaksi_ibfk_2` FOREIGN KEY (`nokamar`) REFERENCES `kamar` (`nokamar`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-03-08 06:45:21 --> Cannot add or update a child row: a foreign key constraint fails (`dbhotel`.`transaksi`, CONSTRAINT `transaksi_ibfk_2` FOREIGN KEY (`nokamar`) REFERENCES `kamar` (`nokamar`) ON DELETE CASCADE ON UPDATE CASCADE)

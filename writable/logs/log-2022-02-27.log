@@ -1,0 +1,302 @@
+CRITICAL - 2022-02-27 01:27:00 --> Undefined variable: userid
+#0 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->delete('2')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-27 06:55:14 --> Call to undefined method App\Models\UserModel::getRow
+#0 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-27 06:56:08 --> Call to undefined method App\Models\UserModel::getRow
+#0 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-27 07:49:42 --> Undefined variable: user
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 07:50:10 --> Undefined variable: user
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 08:02:29 --> Undefined variable: user
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('1')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 08:46:26 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('1')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 08:46:32 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 08:48:38 --> Undefined variable: users
+#0 C:\xampp\htdocs\WEB\app\Views\user\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\userController.php(22): view('user/index', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->user()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 08:51:12 --> Undefined variable: users
+#0 C:\xampp\htdocs\WEB\app\Views\user\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\userController.php(22): view('user/index', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->user()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 08:59:00 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 09:24:44 --> Undefined variable: user
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 09:29:02 --> Undefined variable: users
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 09:29:22 --> Undefined variable: jeniskamar
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 09:33:08 --> Undefined variable: jeniskamar
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 09:34:02 --> Undefined variable: jeniskamar
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 09:39:38 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('1')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-27 21:29:07 --> MySQL server has gone away
+CRITICAL - 2022-02-27 21:29:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\WEB\app\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-02-27 21:29:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-27 21:29:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\WEB\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\WEB\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\WEB\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\WEB\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\WEB\app\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-27 21:29:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-27 21:29:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\WEB\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\WEB\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\WEB\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\WEB\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\WEB\app\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-27 21:29:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-27 21:29:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\WEB\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\WEB\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\WEB\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\WEB\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\WEB\app\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-27 21:29:48 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-27 21:29:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\WEB\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\WEB\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\WEB\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\WEB\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 21:30:17 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 21:31:04 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-27 21:31:05 --> Illegal string offset 'userid'
+#0 C:\xampp\htdocs\WEB\app\Views\admin\detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\AdminController.php(29): view('admin/detail', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\AdminController->detail('3')
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

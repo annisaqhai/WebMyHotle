@@ -1,0 +1,509 @@
+CRITICAL - 2022-03-01 02:38:12 --> Undefined variable: users
+#0 C:\xampp\htdocs\WEB\app\Views\user\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\userController.php(22): view('user/index', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\userController->user()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 02:56:47 --> Undefined index: no_rekening
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 02:57:10 --> Undefined index: nomor_pembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 02:57:56 --> Undefined index: no_rekening
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-01 06:29:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-01 06:29:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\WEB\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\WEB\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\WEB\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\WEB\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\WEB\app\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-01 09:34:12 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:34:12 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:34:41 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:34:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:34:57 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:34:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:35:36 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:35:36 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:37:41 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:37:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:39:16 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:39:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:39:26 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:39:26 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:39:52 --> Unknown column 'pembayaran.userid' in 'where clause'
+CRITICAL - 2022-03-01 09:39:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:39:54 --> Unknown column 'pembayaran.userid' in 'where clause'
+CRITICAL - 2022-03-01 09:39:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:40:17 --> Unknown column 'pembayaran.userid' in 'where clause'
+CRITICAL - 2022-03-01 09:40:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:40:24 --> Unknown column 'pembayaran.userid' in 'where clause'
+CRITICAL - 2022-03-01 09:40:24 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:40:44 --> Unknown column 'pembayaran.userid' in 'where clause'
+CRITICAL - 2022-03-01 09:40:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:40:52 --> Unknown column 'pembayaran.userid' in 'where clause'
+CRITICAL - 2022-03-01 09:40:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:42:18 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:42:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:42:20 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:42:20 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:42:26 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:42:26 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:47:59 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:47:59 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:48:05 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:48:05 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-01 09:48:58 --> Undefined variable: no
+#0 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-01 09:49:19 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:49:19 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:49:52 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:49:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-01 09:50:47 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:50:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('4')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-01 09:55:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-01 09:55:54 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-01 09:55:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-01 09:55:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-01 09:56:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-01 09:56:11 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-01 09:56:42 --> Unknown column 'pembayaran.id' in 'where clause'
+CRITICAL - 2022-03-01 09:56:42 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\WEB\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(62): CodeIgniter\BaseModel->find('3')
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->delete('3')
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-01 09:57:21 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#3 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(14): view('admin/MetodePem...', Array)
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-01 10:01:28 --> Call to undefined method App\Models\PembayaranModel::getPembayaran
+#0 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(12): CodeIgniter\Model->__call('getPembayaran', Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 10:31:37 --> Undefined variable: users
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:33:49 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:35:08 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:36:06 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:38:26 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:38:56 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:39:13 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:40:01 --> Undefined variable: Dpembayaran
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:43:03 --> Undefined index: no_rekening
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:43:47 --> Undefined index: no_rekening
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:44:07 --> Undefined variable: users
+#0 C:\xampp\htdocs\WEB\app\Views\admin\MetodePembayaran.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 146, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/MetodePem...', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\pembayaranController.php(15): view('admin/MetodePem...', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\pembayaranController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pembayaranController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

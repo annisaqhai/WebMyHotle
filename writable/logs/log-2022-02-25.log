@@ -1,0 +1,81 @@
+CRITICAL - 2022-02-25 05:32:24 --> Trying to get property 'product_id' of non-object
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 05:40:09 --> Trying to get property 'nokamar' of non-object
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 05:40:55 --> Trying to get property 'nokamar' of non-object
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 05:42:34 --> Trying to get property 'jeniskamar' of non-object
+#0 C:\xampp\htdocs\WEB\app\Views\admin\kamar.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\WEB\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#4 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#6 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#7 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-25 05:43:40 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\WEB\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\WEB\system\Common.php(1089): CodeIgniter\View\View->render('admin/kamar', Array, true)
+#2 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(18): view('admin/kamar', Array)
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#4 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#5 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-25 05:44:20 --> Call to undefined method App\Models\KamarModel::updateProduct
+#0 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(71): CodeIgniter\Model->__call('updateProduct', Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->update()
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-25 05:57:39 --> Call to undefined method App\Models\KamarModel::updateProduct
+#0 C:\xampp\htdocs\WEB\app\Controllers\kamarController.php(71): CodeIgniter\Model->__call('updateProduct', Array)
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->update()
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#3 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-25 05:58:14 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\WEB\system\CodeIgniter.php(825): App\Controllers\kamarController->index()
+#1 C:\xampp\htdocs\WEB\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kamarController))
+#2 C:\xampp\htdocs\WEB\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
